@@ -1,0 +1,5 @@
+{
+  "name": "DevToolBox",
+  "description": "A comprehensive developer utility suite featuring Base64 encoding/decoding, JWT parsing, XML/JSON formatting, and world time conversion.",
+  "requestFramePermissions": []
+}
