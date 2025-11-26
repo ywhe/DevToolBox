@@ -77,7 +77,7 @@ export const DiffTool: React.FC = () => {
     }
 
     return (
-      <div className="font-monospace small text-break whitespace-pre-wrap">
+      <div className="font-monospace small text-break" style={{ whiteSpace: 'pre-wrap' }}>
         {diffParts.map((part, idx) => {
           if (part.type === 'equal') {
             return <span key={idx} className="text-secondary">{part.value}{mode === 'lines' && '\n'}</span>;
